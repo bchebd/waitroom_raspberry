@@ -1,0 +1,38 @@
+:root {
+  --bg: #F2F2F7;
+
+  --glass-bg: rgba(255, 255, 255, 0.6);
+  --glass-hover: rgba(255, 255, 255, 0.8);
+  --glass-active: rgba(255, 255, 255, 0.95);
+
+  --glass-dd: rgba(238, 238, 238, 0.822);
+
+  --border: rgba(0, 0, 0, 0.1);
+
+  --shadow: rgba(0, 0, 0, 0.12);
+
+  --text: rgba(0, 0, 0, 0.92);
+  --text-muted: rgba(0, 0, 0, 0.45);
+  --text-soft: rgba(0, 0, 0, 0.65);
+
+  --grey: #8E8E93;
+
+  --grey-glass: rgba(255, 255, 255, 0.55);
+}
+
+:root {
+  --accent: #0A84FF;
+  --accent-hover: #3399FF;
+  --accent-active: #0066CC;
+  --box-shadow-color: rgba(10, 132, 255, 0.137);
+}
+
+html {
+    scroll-behavior: smooth;    
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--bg);
+    overflow-x: hidden;
+}
