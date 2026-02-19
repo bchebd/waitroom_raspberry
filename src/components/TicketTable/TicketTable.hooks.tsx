@@ -5,7 +5,6 @@ import { useGetTagsQuery, useGetUsersQuery } from "@/store/services/tagApi";
 export const useTicketTable = () => {
     const { data: tags, isLoading: isLoadingT, isError: isErrorT, error: errorT,  } = useGetTagsQuery(undefined, { pollingInterval: 6000 });
     const { data: users, isLoading: isLoadingU, isError: isErrorU, error: errorU,  } = useGetUsersQuery(undefined, { pollingInterval: 6000 });
-    
 
     const rows = useMemo(() => { 
         if (isLoadingT || !tags) return [];
